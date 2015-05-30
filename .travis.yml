@@ -1,0 +1,5 @@
+language: csharp
+solution: veryfay-csharp.sln
+script:
+  - xbuild /p:Configuration=Release veryfay-csharp.sln
+  - mono ./packages/nspec.*/tools/NSpecRunner.exe ./Veryfay.Test/bin/Release/Veryfay.Test.dll
