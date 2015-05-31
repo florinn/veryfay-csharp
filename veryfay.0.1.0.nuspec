@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>veryfay</id>
+        <version>0.1.0</version>
+        <title>Veryfay</title>
+        <authors>Florin Nitoi</authors>
+        <licenseUrl>https://github.com/florinn/veryfay-csharp/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/florinn/veryfay-csharp</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Activity based authorization library for C#</description>
+        <tags>authorization engine library activity role permission c#</tags>
+    </metadata>
+    <files>
+        <file src="Veryfay\bin\Release\Veryfay.dll" target="lib\Veryfay.dll" />
+    </files>
+</package>
